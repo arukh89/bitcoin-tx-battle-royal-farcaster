@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bitcoin TX Battle Royale</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #1a1a1a 0%, #2d2d2d 100%);
+            color: white;
+            margin: 0;
+            padding: 20px;
+            min-height: 100vh;
+        }
+        
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: rgba(247, 147, 26, 0.1);
+            padding: 30px;
+            border-radius: 15px;
+            border: 1px solid rgba(247, 147, 26, 0.3);
+        }
+        
+        h1 {
+            color: #f7931a;
+            text-align: center;
+        }
+        
+        .game-info {
+            background: rgba(0,0,0,0.3);
+            padding: 20px;
+            border-radius: 10px;
+            margin: 20px 0;
+        }
+        
+        .btn {
+            background: #f7931a;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            margin: 10px;
+        }
+        
+        .btn:hover {
+            background: #e68a18;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🎮 Bitcoin TX Battle Royale</h1>
+        
+        <div class="game-info">
+            <h2>How to Play</h2>
+            <ol>
+                <li>Predict the number of transactions in the next Bitcoin block</li>
+                <li>Submit your guess through the Farcaster frame</li>
+                <li>Winners receive $SECONDS tokens as rewards!</li>
+            </ol>
+        </div>
+        
+        <div class="game-info">
+            <h2>Prize Pool</h2>
+            <p>🥇 First Place: 500 $SECONDS</p>
+            <p>🥈 Second Place: 250 $SECONDS</p>
+        </div>
+        
+        <div style="text-align: center;">
+            <button class="btn" onclick="window.location.href='https://warpcast.com/'">
+                Play on Warpcast
+            </button>
+        </div>
+    </div>
+</body>
+</html>
